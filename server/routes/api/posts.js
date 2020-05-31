@@ -4,10 +4,10 @@ const express = require("express");
 const router = express.Router();
 
 //GET Post
-
 router.get("/", (req, res) => {
   res.send("GET request to the homepage");
 });
+
 //GET post
 
 //DELETE
