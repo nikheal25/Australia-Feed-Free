@@ -1,0 +1,3 @@
+{
+  "mongoURL": "mongodb+srv://NickFloyd:NickFloyd@nodeclust-odqrf.mongodb.net/test?retryWrites=true&w=majority"
+}

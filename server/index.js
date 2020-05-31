@@ -3,6 +3,11 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 const app = express();
+console.log("1");
+
+const db = require("./config/db");
+db();
+console.log("4");
 
 // Middleware
 app.use(bodyParser.json());
